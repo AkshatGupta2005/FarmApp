@@ -1,11 +1,5 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
-import { 
-  Wifi, Thermometer, Droplets, Sun, Settings, Video, Home, 
-  Activity, AlertTriangle, CheckCircle, Clock, Zap, Cloud,
-  TrendingUp, TrendingDown, Minus, RefreshCw, Bell, Shield,
-  Leaf, Sprout, TreePine, Wind, Eye, Power, Database,
-  Calendar, BarChart3, Map, Smartphone, Wifi4, WifiOff
-} from 'lucide-react';
+import { Wifi, Thermometer, Droplets, Sun, Settings, Video, Home, Activity, AlertTriangle, CheckCircle, Clock, Zap, Cloud, TrendingUp, TrendingDown, Minus, RefreshCw, Bell, Shield, Leaf, Sprout, TreePine, Wind, Eye, Power, Database, Calendar, BarChart3, Map, Smartphone, Wifi as Wifi4, WifiOff } from 'lucide-react';
 import './App.css';
 
 // --- Configuration ---
