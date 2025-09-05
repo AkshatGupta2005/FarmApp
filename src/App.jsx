@@ -809,7 +809,7 @@ function GaugeCard({ title, value, unit, max, threshold, color, reverse = false 
             }}
           />
           <defs>
-            <linearGradient id={`gradient-${title.replace(/\s+/g, '')}`} x1="0%" y1="0%" x2="100%" y2="0%">
+            <linearGradient id={`gradient-${title.replace(/\s+/g, '')}`} x1="0%\" y1="0%\" x2="100%\" y2="0%">
               <stop offset="0%" className={color.split(' ')[0].replace('from-', 'text-')} />
               <stop offset="100%" className={color.split(' ')[2].replace('to-', 'text-')} />
             </linearGradient>
